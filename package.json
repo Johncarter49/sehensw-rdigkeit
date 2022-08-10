@@ -1,0 +1,23 @@
+{
+  "name": "3.tag-flexbox-wiederholen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johncarter49/sehenswurdigkeit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johncarter49/sehenswurdigkeit/issues"
+  },
+  "homepage": "https://github.com/Johncarter49/sehenswurdigkeit#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
