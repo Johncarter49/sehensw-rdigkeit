@@ -1,0 +1,126 @@
+body {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h1 {
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 3rem;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-img {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.img-1 {
+  background-image: url("https://static.dw.com/image/18445601_303.jpg");
+}
+.img-2 {
+  background-image: url("https://static.dw.com/image/48589205_303.jpg");
+}
+.img-3 {
+  background-image: url("https://static.dw.com/image/17833017_303.jpg");
+}
+.img-4 {
+  background-image: url("https://static.dw.com/image/19439037_303.jpg");
+}
+.img-5 {
+  background-image: url("https://static.dw.com/image/48733287_303.jpg");
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vh;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  border: 5px solid #111;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover,
+.img-4:hover,
+.img-5:hover {
+  width: 50vh;
+  box-shadow: 15px 15px 15px;
+}
+footer{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    margin-top: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: bold;
+}
+@media all and (max-width: 750px) {
+  .main-img {
+    flex-direction: column;
+  }
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5 {
+    width: 80%;
+  }
+  .img-1:hover,
+  .img-2:hover,
+  .img-3:hover,
+  .img-4:hover,
+  .img-5:hover {
+      width: 100%;
+  }
+}
